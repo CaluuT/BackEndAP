@@ -21,7 +21,6 @@ C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\Proye
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\CaluTApplication.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Seguridad\Entity\Rol.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Servicios\ServicioExperiencia.java
-C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Interfaces\IServicioPersona.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Seguridad\Controlador\ControladorAuth.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Controladores\ControladorEducacion.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Seguridad\MainSecurity.java
@@ -30,6 +29,7 @@ C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\Proye
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Seguridad\JWT\JwtProvider.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Entidades\Experiencia.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Seguridad\DTO\LoginUsuario.java
+C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\DTO\PersonaDTO.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Entidades\Educacion.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Servicios\ServicioEducacion.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Entidades\Persona.java

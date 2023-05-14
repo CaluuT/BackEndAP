@@ -5,7 +5,6 @@ com\Portfolio\CaluT\Seguridad\Servicios\ServicioRol.class
 com\Portfolio\CaluT\Servicios\ServicioEducacion.class
 com\Portfolio\CaluT\Seguridad\Controlador\Mensaje.class
 com\Portfolio\CaluT\Seguridad\Servicios\UserDetailsImp.class
-com\Portfolio\CaluT\Interfaces\IServicioPersona.class
 com\Portfolio\CaluT\CaluTApplication.class
 com\Portfolio\CaluT\Servicios\ServicioHys.class
 com\Portfolio\CaluT\DTO\EducacionDTO.class
@@ -20,6 +19,7 @@ com\Portfolio\CaluT\Seguridad\Repositorio\IRepositorioRol.class
 com\Portfolio\CaluT\Seguridad\Repositorio\IRepositorioUsuario.class
 com\Portfolio\CaluT\Seguridad\Servicios\ServicioUsuario.class
 com\Portfolio\CaluT\Repositorio\RepositorioHys.class
+com\Portfolio\CaluT\DTO\PersonaDTO.class
 com\Portfolio\CaluT\Repositorio\IRepositorioPersona.class
 com\Portfolio\CaluT\Seguridad\DTO\NuevoUsuario.class
 com\Portfolio\CaluT\DTO\HySDTO.class
