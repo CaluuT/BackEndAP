@@ -1,61 +1,64 @@
 package com.Portfolio.CaluT.Controladores;
 
+import com.Portfolio.CaluT.DTO.PersonaDTO;
 import com.Portfolio.CaluT.Entidades.Persona;
-import com.Portfolio.CaluT.Interfaces.IServicioPersona;
+import com.Portfolio.CaluT.Seguridad.Controlador.Mensaje;
+import com.Portfolio.CaluT.Servicios.ImpServicioPersona;
 import java.util.List;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@RequestMapping("/personas")
+@CrossOrigin(origins = {"https://frontendap-30130.web.app","http://localhost:4200"})
 public class ControladorPersona {
-    @Autowired IServicioPersona iservicioPersona;
+    @Autowired ImpServicioPersona iservicioPersona;
+        
     
-    @GetMapping("personas/traer")
-    public List<Persona> getPersona(){
-        return iservicioPersona.getPersona();
+    @GetMapping("/lista")
+    public ResponseEntity<List<Persona>> list(){
+        List<Persona> list = iservicioPersona.list();
+        return new ResponseEntity(list, HttpStatus.OK);
     }
     
-    
-    @PostMapping("/personas/crear")
-    public String createPersona(@RequestBody Persona persona){
-     iservicioPersona.savePersona(persona);
-     return "Persona creada correctamente";
+    @PutMapping("/update/{id}")
+    public ResponseEntity<?> update(@PathVariable("id") int id, @RequestBody PersonaDTO perdto){
+        if(!iservicioPersona.existsById(id))
+            return new ResponseEntity(new Mensaje ("ID no existente"), HttpStatus.BAD_REQUEST);
+        if (iservicioPersona.existsByNombre(perdto.getNombre()) && iservicioPersona.getByNombre(perdto.getNombre()).get().getId() !=id)
+            return new ResponseEntity(new Mensaje ("Persona existente"), HttpStatus.BAD_REQUEST);
+        if(StringUtils.isBlank(perdto.getNombre()))
+            return new ResponseEntity(new Mensaje ("Nombre es obligatorio"), HttpStatus.BAD_REQUEST);
+        
+        Persona persona = iservicioPersona.getOne(id).get();
+        persona.setNombre(perdto.getNombre());
+        persona.setApellido(perdto.getApellido());
+        persona.setDescripcion(perdto.getDescripcion());
+        persona.setImg(perdto.getImg());
+        iservicioPersona.save(persona);
+        return new ResponseEntity (new Mensaje ("Persona actualizada"), HttpStatus.OK);
     }
     
-    @DeleteMapping("/personas/borrar/{id}")
-    public String deletePersona(@PathVariable Long id){
-        iservicioPersona.deletePersona(id);
-        return "Persona eliminada correctamente";
+    @GetMapping("/detail/{id}")
+    public ResponseEntity<Persona> getById(@PathVariable("id") int id){
+        if(!iservicioPersona.existsById(id))
+            return new ResponseEntity(new Mensaje("no existe el ID"), HttpStatus.NOT_FOUND);
+        Persona persona = iservicioPersona.getOne(id).get();
+        return new ResponseEntity(persona, HttpStatus.OK);
     }
-    
-    
-    @PutMapping("/personas/editar/{id}")
-    public Persona editPersona(@PathVariable Long id,
-                               @RequestParam("nombre") String nuevoNombre,
-                               @RequestParam("apellido") String nuevoApellido,
-                               @RequestParam("img") String nuevoImg){
-    Persona persona = iservicioPersona.findPersona(id);
-    
-    persona.setNombre(nuevoNombre);
-    persona.setApellido(nuevoApellido);
-    persona.setImg(nuevoImg);
-    
-    iservicioPersona.savePersona(persona);
-    return persona;
+
+    private static class IServicioPersona {
+
+        public IServicioPersona() {
+        }
     }
-    
-    @GetMapping("/personas/traer/perfil")
-    public Persona findPersona(){
-        return iservicioPersona.findPersona((long)1);
-    }
-    
 }

@@ -1,37 +1,46 @@
 package com.Portfolio.CaluT.Servicios;
 
 import com.Portfolio.CaluT.Entidades.Persona;
-import com.Portfolio.CaluT.Interfaces.IServicioPersona;
 import com.Portfolio.CaluT.Repositorio.IRepositorioPersona;
 import java.util.List;
+import java.util.Optional;
+import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ImpServicioPersona implements IServicioPersona{
-    @Autowired IRepositorioPersona irepositorioPersona;
+@Transactional
+public class ImpServicioPersona{
+    @Autowired
+    IRepositorioPersona irepositorioPersona;
     
     
-    @Override
-    public List<Persona> getPersona() {
-        List<Persona> persona = irepositorioPersona.findAll();
-        return persona;
+    public List<Persona> list(){
+    return irepositorioPersona.findAll();
     }
-
-    @Override
-    public void savePersona(Persona persona) {
+    
+    public Optional<Persona> getOne(int id){
+        return irepositorioPersona.findById(id);
+    }
+    
+    public Optional<Persona> getByNombre(String nombre){
+        return irepositorioPersona.findByNombre(nombre);   
+    }
+    
+    public void save(Persona persona){
         irepositorioPersona.save(persona);
     }
-
-    @Override
-    public void deletePersona(Long id) {
+    
+    public void delete(int id){
         irepositorioPersona.deleteById(id);
     }
-
-    @Override
-    public Persona findPersona(Long id) {
-        Persona persona = irepositorioPersona.findById(id).orElse(null);
-        return persona;
+    
+    public boolean existsById(int id){
+        return irepositorioPersona.existsById(id);
+    }
+    
+    public boolean existsByNombre(String nombre){
+        return irepositorioPersona.existsByNombre(nombre);
     }
     
 }
