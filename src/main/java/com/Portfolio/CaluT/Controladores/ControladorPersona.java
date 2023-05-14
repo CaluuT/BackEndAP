@@ -55,10 +55,4 @@ public class ControladorPersona {
         Persona persona = iservicioPersona.getOne(id).get();
         return new ResponseEntity(persona, HttpStatus.OK);
     }
-
-    private static class IServicioPersona {
-
-        public IServicioPersona() {
-        }
-    }
-}
+ }
