@@ -14,7 +14,6 @@ com\Portfolio\CaluT\Seguridad\Entity\Rol.class
 com\Portfolio\CaluT\Servicios\ImpServicioPersona.class
 com\Portfolio\CaluT\Servicios\ServicioExperiencia.class
 com\Portfolio\CaluT\Seguridad\Enums\RolNombre.class
-com\Portfolio\CaluT\WebConfig.class
 com\Portfolio\CaluT\Seguridad\JWT\JwtProvider.class
 com\Portfolio\CaluT\Seguridad\Repositorio\IRepositorioRol.class
 com\Portfolio\CaluT\Seguridad\Repositorio\IRepositorioUsuario.class
