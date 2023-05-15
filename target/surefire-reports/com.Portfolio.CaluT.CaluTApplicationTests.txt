@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.Portfolio.CaluT.CaluTApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.084 s - in com.Portfolio.CaluT.CaluTApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.698 s - in com.Portfolio.CaluT.CaluTApplicationTests

@@ -5,11 +5,14 @@ com\Portfolio\CaluT\Seguridad\Servicios\ServicioRol.class
 com\Portfolio\CaluT\Servicios\ServicioEducacion.class
 com\Portfolio\CaluT\Seguridad\Controlador\Mensaje.class
 com\Portfolio\CaluT\Seguridad\Servicios\UserDetailsImp.class
+com\Portfolio\CaluT\Controladores\ControladorProyectos.class
 com\Portfolio\CaluT\CaluTApplication.class
 com\Portfolio\CaluT\Servicios\ServicioHys.class
 com\Portfolio\CaluT\DTO\EducacionDTO.class
 com\Portfolio\CaluT\Seguridad\Controlador\ControladorAuth.class
+com\Portfolio\CaluT\Entidades\Proyectos.class
 com\Portfolio\CaluT\Entidades\Experiencia.class
+com\Portfolio\CaluT\Servicios\ServicioProyectos.class
 com\Portfolio\CaluT\Seguridad\Entity\Rol.class
 com\Portfolio\CaluT\Servicios\ImpServicioPersona.class
 com\Portfolio\CaluT\Servicios\ServicioExperiencia.class
@@ -18,6 +21,7 @@ com\Portfolio\CaluT\Seguridad\JWT\JwtProvider.class
 com\Portfolio\CaluT\Seguridad\Repositorio\IRepositorioRol.class
 com\Portfolio\CaluT\Seguridad\Repositorio\IRepositorioUsuario.class
 com\Portfolio\CaluT\Seguridad\Servicios\ServicioUsuario.class
+com\Portfolio\CaluT\Repositorio\RepositorioProyectos.class
 com\Portfolio\CaluT\Repositorio\RepositorioHys.class
 com\Portfolio\CaluT\DTO\PersonaDTO.class
 com\Portfolio\CaluT\Repositorio\IRepositorioPersona.class
@@ -36,4 +40,5 @@ com\Portfolio\CaluT\Repositorio\RepositorioExperiencia.class
 com\Portfolio\CaluT\Seguridad\Entity\Usuario.class
 com\Portfolio\CaluT\Controladores\ControladorEducacion.class
 com\Portfolio\CaluT\Entidades\Persona.class
+com\Portfolio\CaluT\DTO\ProyectosDTO.class
 com\Portfolio\CaluT\Seguridad\DTO\LoginUsuario.class

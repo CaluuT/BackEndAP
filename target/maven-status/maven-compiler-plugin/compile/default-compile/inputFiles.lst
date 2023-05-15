@@ -1,13 +1,16 @@
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Entidades\Hys.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Repositorio\IRepositorioPersona.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Seguridad\Servicios\UserDetailsImp.java
+C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\DTO\ProyectosDTO.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\DTO\ExperienciaDTO.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Seguridad\Controlador\Mensaje.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Servicios\ImpServicioPersona.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Seguridad\Repositorio\IRepositorioRol.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Seguridad\DTO\JwtDto.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Seguridad\Enums\RolNombre.java
+C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Servicios\ServicioProyectos.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Seguridad\DTO\NuevoUsuario.java
+C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Entidades\Proyectos.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Repositorio\RepositorioExperiencia.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Controladores\ControladorHys.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Seguridad\Entity\UsuarioPrincipal.java
@@ -16,6 +19,7 @@ C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\Proye
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\DTO\HySDTO.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Servicios\ServicioHys.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Controladores\ControladorExperiencia.java
+C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Controladores\ControladorProyectos.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Repositorio\RepositorioHys.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\DTO\EducacionDTO.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\CaluTApplication.java
@@ -24,6 +28,7 @@ C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\Proye
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Seguridad\Controlador\ControladorAuth.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Controladores\ControladorEducacion.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Seguridad\MainSecurity.java
+C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Repositorio\RepositorioProyectos.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Seguridad\JWT\JwtTokenFilter.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Seguridad\Servicios\ServicioUsuario.java
 C:\Program Files (x86)\CarpetasDesktop\Programacion\Trabajos\DesarrolloWeb\ProyectoFinal\proyectoIntegrador_LucaTesta\Proyecto\BackEnd\src\main\java\com\Portfolio\CaluT\Seguridad\JWT\JwtProvider.java
